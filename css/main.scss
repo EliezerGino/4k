@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Gotham", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    .infGeral {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0em 10em 0em 10em;
+        height: 50px;
+        font-size: 12px;
+        box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+
+        ul {
+            display: flex;
+
+            li a {
+                padding-left: 2em;
+            }
+        }
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0em 10em 0em 10em;
+        height: 84px;
+        font-size: 12px;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+        ul {
+            display: flex;
+
+            li a {
+                padding-right: 2em;
+            }
+        }
+    }
+}
+
+.companhias {
+    height: 84px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .empresas {
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                padding-right: 2em;
+            }
+        }
+    }
+    .search {
+        display: flex;
+        input {
+            font-family: "Gotham";
+            font-weight: normal;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-right: none;
+            padding: 10px;
+            width: 400px;
+            height: 50px;
+            outline: none;
+            text-transform: uppercase;
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+            background: #004790;
+            text-align: center;
+            color: #fff;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: "Gotham";
+            font-weight: normal;
+            font-size: 12px;
+        }
+    }
+}
+
+.carousel {
+    height: 470px;
+    background-image: url("/assets/images/BG.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+        font-size: 1.5em;
+        color: white;
+
+        button {
+            width: 160px;
+            height: 50px;
+            background: #7684ff;
+            text-align: center;
+            color: #fff;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: "Gotham";
+            font-weight: normal;
+            font-size: 12px;
+        }
+    }
+
+    .card-product {
+        width: 320px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        color: #444;
+
+        .card-header {
+            height: 160px;
+            overflow: hidden;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            position: relative;
+
+            .product-title {
+                max-width: 80%;
+                font-size: 1.1rem;
+            }
+
+            .product-desc {
+                font-size: 0.8rem;
+                color: #ccc;
+            }
+
+            h1 {
+                font-size: 0.8rem;
+            }
+
+            li {
+                font-size: 0.9em;
+                color: #dadada;
+            }
+
+            .card-price {
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                font-weight: bold;
+                font-size: 0.9rem;
+                color: #a762eb;
+            }
+        }
+
+        .card-action {
+            text-align: center;
+            display: flex;
+
+            a {
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 0.9rem;
+                font-weight: 500;
+                padding: 1.1rem 0;
+                background: #004790;
+                width: 100%;
+                font-weight: 400;
+                transition: color 0.5s ease;
+
+                &:hover {
+                    color: #fff;
+                    background: #c284ff;
+                }
+            }
+        }
+    }
+}
+
+.container-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tipo {
+        margin-top: -20px;
+        width: 1188px;
+        height: 103px;
+        background: #fff;
+        box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .opcao{
+            select {
+                box-sizing: content-box;
+                margin-right: 15px;
+                padding-left: 15px;
+                width: 204px;
+                height: 48px;
+                border: none;
+                background: rgba(204, 204, 204, 0.3);
+                text-transform: uppercase;
+                font-family: 'Gotham';
+                font-size: 12px;
+                appearance: none;
+                outline: none;
+                border: 0 !important;
+                
+            }
+        }
+        button {
+            width: 160px;
+            height: 50px;
+            background: #FFBB00;
+            text-align: center;
+            color: #fff;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: "Gotham";
+            font-weight: 500;
+            font-size: 12px;
+        }
+        
+    }
+}
+
+.wrapper {
+    padding: 0em 5em 0em 5em;
+}

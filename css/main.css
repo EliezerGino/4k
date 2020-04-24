@@ -1,0 +1,323 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Gotham", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .infGeral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0em 10em 0em 10em;
+  height: 50px;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.25);
+}
+
+header .infGeral ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .infGeral ul li a {
+  padding-left: 2em;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0em 10em 0em 10em;
+  height: 84px;
+  font-size: 12px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .menu ul li a {
+  padding-right: 2em;
+}
+
+.companhias {
+  height: 84px;
+  background: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.companhias .empresas ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.companhias .empresas ul li {
+  padding-right: 2em;
+}
+
+.companhias .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.companhias .search input {
+  font-family: "Gotham";
+  font-weight: normal;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.companhias .search button {
+  width: 100px;
+  height: 50px;
+  background: #004790;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Gotham";
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.carousel {
+  height: 470px;
+  background-image: url("/assets/images/BG.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.carousel .title button {
+  width: 160px;
+  height: 50px;
+  background: #7684ff;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Gotham";
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.carousel .card-product {
+  width: 320px;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  color: #444;
+}
+
+.carousel .card-product .card-header {
+  height: 160px;
+  overflow: hidden;
+}
+
+.carousel .card-product .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  position: relative;
+}
+
+.carousel .card-product .card-body .product-title {
+  max-width: 80%;
+  font-size: 1.1rem;
+}
+
+.carousel .card-product .card-body .product-desc {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.carousel .card-product .card-body h1 {
+  font-size: 0.8rem;
+}
+
+.carousel .card-product .card-body li {
+  font-size: 0.9em;
+  color: #dadada;
+}
+
+.carousel .card-product .card-body .card-price {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #a762eb;
+}
+
+.carousel .card-product .card-action {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel .card-product .card-action a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1.1rem 0;
+  background: #004790;
+  width: 100%;
+  font-weight: 400;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.carousel .card-product .card-action a:hover {
+  color: #fff;
+  background: #c284ff;
+}
+
+.container-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-bar .tipo {
+  margin-top: -20px;
+  width: 1188px;
+  height: 103px;
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-bar .tipo .opcao select {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-right: 15px;
+  padding-left: 15px;
+  width: 204px;
+  height: 48px;
+  border: none;
+  background: rgba(204, 204, 204, 0.3);
+  text-transform: uppercase;
+  font-family: 'Gotham';
+  font-size: 12px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  border: 0 !important;
+}
+
+.container-bar .tipo button {
+  width: 160px;
+  height: 50px;
+  background: #FFBB00;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Gotham";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.wrapper {
+  padding: 0em 5em 0em 5em;
+}
+/*# sourceMappingURL=main.css.map */
